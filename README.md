@@ -67,7 +67,6 @@ The following datasets are currently included in DataRec:
 | Amazon Clothing         | https://amazon-reviews-2023.github.io/                                 |
 | Amazon Music           | https://amazon-reviews-2023.github.io                                  |
 | Amazon Office           | https://amazon-reviews-2023.github.io                                  |
->>>>>>> public/master
 | Amazon Sports and Outdoors | https://amazon-reviews-2023.github.io/                                 |
 | Amazon Toys and Games  | https://amazon-reviews-2023.github.io/                                 |
 | Amazon Video Games      | https://amazon-reviews-2023.github.io/                                 |
@@ -83,10 +82,7 @@ The following datasets are currently included in DataRec:
 ## Next Updates
 - ⏳ improving logger
 - ⏳ improving signatures
-<<<<<<< HEAD
-- ⏳ documentation
-=======
->>>>>>> public/master
+
 
 ## Authors
 
