@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-# the best setup
+# the perfect setup
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 

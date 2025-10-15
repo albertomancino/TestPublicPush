@@ -56,11 +56,6 @@ The following datasets are currently included in DataRec:
 | Dataset Name            | Source                                                                 |
 |-------------------------|------------------------------------------------------------------------|
 | Alibaba iFashion        | https://drive.google.com/drive/folders/1xFdx5xuNXHGsUVG2VIohFTXf9S7G5veq |
-<<<<<<< HEAD
-| Amazon Beauty           | https://amazon-reviews-2023.github.io                                  |
-| Amazon Books            | https://amazon-reviews-2023.github.io/                                 |
-| Amazon Clothing         | https://amazon-reviews-2023.github.io/                                 
-=======
 | Amazon Baby           | https://amazon-reviews-2023.github.io                                  |
 | Amazon Beauty           | https://amazon-reviews-2023.github.io                                  |
 | Amazon Books            | https://amazon-reviews-2023.github.io/                                 |
