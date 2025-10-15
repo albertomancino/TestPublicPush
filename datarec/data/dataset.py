@@ -53,8 +53,6 @@ class DataRec:
             
         """
 
-
-        
         self.path = None
         self._data = None
         self.dataset_name = dataset_name

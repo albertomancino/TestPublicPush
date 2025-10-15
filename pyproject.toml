@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datarec"
+version = "3.0.0"
+description = "Standardized & reproducible data management for recommender systems."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Alberto Carlo Maria Mancino", email = "alberto.mancino@poliba.it" },
+  { name = "Salvatore Bufi", email = "salvatore.bufi@poliba.it" },
+  { name = "Angela Di Fazio", email = "angela.difazio@poliba.it" },
+  { name = "Daniele Malitesta", email = "daniele.malitesta@centralesupelec.fr" },
+  { name = "Antonio Ferrara", email = "antonio.ferrara@poliba.it" },
+  { name = "Claudio Pomo", email = "claudio.pomo@poliba.it" },
+  { name = "Tommaso Di Noia", email = "tommaso.dinoia@poliba.it" }
+]
+license = { text = "MIT" }
+keywords = ["recommender-systems", "data", "ml", "etl"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+  "numpy>=1.23,<3",
+  "pandas>=1.5,<3",
+  "scikit-learn>=1.2,<2",
+  "tqdm>=4.64,<5",
+  "gdown>=4.7,<5",
+  "requests>=2.28,<3",
+  "py7zr>=0.20,<1",
+  "PyYAML>=6,<7",
+  "platformdirs>=3,<5",
+  "appdirs>=1.4,<2",
+  "typing_extensions>=4.4,<5; python_version < '3.11'",
+]
+
+[project.urls]
+Homepage = "https://sisinflab.github.io/DataRec/"
+Repository = "https://github.com/sisinflab/DataRec"
+Issues = "https://github.com/sisinflab/DataRec/issues"
+
+[tool.setuptools.packages.find]
+where = ["datarec"]
