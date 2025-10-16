@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "datarec"
-version = "3.0.1"
+version = "3.1.0"
 description = "Standardized & reproducible data management for recommender systems."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -41,6 +41,13 @@ dependencies = [
   "platformdirs>=3,<5",
   "appdirs>=1.4,<2",
   "typing_extensions>=4.4,<5; python_version < '3.11'",
+]
+[project.optional-dependencies]
+torch = [
+    "torch>=2.0.0"
+]
+dev = [
+  "pytest>=7,<9"
 ]
 
 [project.urls]
